@@ -2,71 +2,144 @@ body {
 background-color: #F0F0F0;
 }
 
+
+a {
+
+  font-family: 'Bangers', sans-serif;
+  font-size: 20px;
+  color: #FF3D5D;
+}
+
+a:hover {
+text-decoration: none;
+font-family: 'Bangers', sans-serif;
+font-size: 20px;
+color: blue;
+}
+
+
+
 .first {
   text-align: center;
 }
 
 .second {
   text-align: center;
-  margin-bottom: 60px;
+  margin-top: -60px;
 }
 
 
 .one {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 140px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 125px;
   color: #FF3D5D;
-  margin-top: 80px;
-  font-weight: 550;
+  margin-top: 50px;
+  font-weight: 500;
 }
 
 .two {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 94px;
-  color: #FF3D7E;
+  font-family: 'Bangers', sans-serif;
+  font-size: 90px;
+  color: grey;
+  margin-top: -20px;
 }
 
 .three {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 28px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 26px;
   color: #C35CFF;
   margin-top: 10px;
 }
 
 .four {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 26px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 24px;
   color: #587DF8;
   margin-top: 50px;
 }
 
 .five {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 70px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 68px;
   font-weight: 700;
   color: #315DEC;
   margin-top: -5px;
 }
 
 .six {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 70px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 68px;
   color: #587DF9;
 }
 
+
+@keyframes pulsowanie {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+
 .seven {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 28px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 26px;
   color: #587DF9;
   margin-bottom: 50px;
-  margin-top: -5px;
 }
+
+
+.eight {
+  font-family: 'Bangers', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 50px;
+  margin-top: -20px;
+
+}
+
+
+.eight:hover {
+  font-family: 'Bangers', sans-serif;
+  font-size: 28px;
+  color: #FF3D7E;
+  margin-bottom: 50px;
+  transition: 2s;
+}
+
+.eight:hover + .nine {
+  display: block;
+  animation-name: pulsowanie;
+  animation-duration: 2s;
+
+}
+
+.nine {
+display: none;
+font-family: 'Bangers', sans-serif;
+font-size: 22px;
+color: grey;
+margin-top: -40px;
+}
+
+.ten {
+  font-family: 'Bangers', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #315DEC;
+  margin-bottom: 50px;
+}
+
+
 
 
 h1 {
 
   text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Bangers', sans-serif;
   font-size: 10vh;
 }
 
@@ -74,31 +147,31 @@ h1 {
 h2 {
 
     text-align: center;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Bangers', sans-serif;
     font-size: 5vh;
   }
 
 
 .header-font {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Bangers', sans-serif;
   font-size: 5vh;
 }
 
 
 h3 {
   text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Bangers', sans-serif;
 }
 
 i {
   font-size: 12vh;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Bangers', sans-serif;
 }
 
 p {
   text-align: center;
   font-size: 2vh;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Bangers', sans-serif;
 }
 
 h3 {
@@ -106,14 +179,14 @@ h3 {
 }
 
 h3:hover {
-  transform: translate(0px, -15px);
+  transform: translate(0px, -10px);
 }
 
 
 .star {
 font-size: 3.4vh;
 transition: 2s;
-font-family: 'Libre Franklin', sans-serif;
+font-family: 'Bangers', sans-serif;
 color: grey;
 }
 
@@ -151,7 +224,20 @@ color: grey;
 color: #FF3D5D;
 }
 
+.eleven {
+margin-top: 40px;
+font-family: 'Bangers', sans-serif;
+font-size: 25px;
+color: #315DEC;
+}
 
+.eleven:hover {
+  text-decoration: none;
+  font-family: 'Bangers', sans-serif;
+  font-size: 25px;
+  color: #FF3D5D;
+
+}
 
 
 .menu-wrap a {
